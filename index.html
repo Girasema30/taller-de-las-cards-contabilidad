@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una página diseñada por Girasema Cáceres, sobre la contabilidad resaltando como tema principal 'Las Cards' o 'Las targetas' y la etiqueta 'Marquee'>
+    <title>Contabilidad - Girasema Cáceres</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/224/224597.png">
+    
+    <!--Aquí inicia el código Css-->
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        section{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        header{
+            height: 2em;
+            background-color: rgba(58, 231, 156, 0.572);
+            text-align: center;
+            padding: 0.5em;
+            padding-top: 1em;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            max-width: 1100px;
+            padding-top: 10px;
+        }
+
+        .card{
+            width: 100%;
+            margin: 20px;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #ffffff;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+            cursor: default;
+            transition: all 400ms ease;
+        }
+         /*Aquí inicia el código del hover de las targetas*/
+         .card:hover{
+             box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+             transform: translateY(-3%);
+         }
+
+         /*Aquí inicia el código para ajustar las imágenes de las cards*/
+         .card img{
+             width: 100%;
+             height: 210px;
+         }
+
+         /*Aquí inicia el código para ajustar el texto de las cards*/
+         .card .info{
+             padding: 15px;
+             text-align: center;
+         }
+
+         .card .info h3{
+             margin-bottom: 15px;
+             font-weight: 500;
+         }
+
+         .card .info p{
+             text-align: justify;
+             color: #6a6a6a;
+             line-height: 1.5;
+             padding-bottom: 10px;
+         }
+
+         /*Aquí inicia el código para poner bonito el botón de "leer más"*/
+         .card a{
+             text-decoration: none;
+             display: inline-block;
+             padding: 10px;
+             color: rgb(0,255,255);
+             border: 1px solid rgb(0,255,255);
+             border-radius: 4px;
+             transition: all 400ms ease;
+         }
+
+         .card a:hover{
+            background: rgb(3, 143, 143);
+            color: #ffffff;
+            border: 1px solid #000000;
+         }
+
+        /*Aquí inicia el style del footer*/
+        footer{
+            height: 2em;
+            background-color: rgba(58, 231, 156, 0.572);
+            text-align: center;
+            padding: 1em;
+            padding-top: 1.5em;
+            font-size: 1.5em;
+        }
+
+    </style>
+
+    <!--Aquí finaliza el código Css-->
+</head>
+<body>
+    <header>La Contabilidad</header>
+    <!--Aquí inician las cards-->
+    <section>
+        <div class="container">
+            <!--Aquí está la card 1-->
+            <div class="card">
+                <figure>
+                    <img src="https://us.123rf.com/450wm/scanrail/scanrail1503/scanrail150300024/37832421-creative-abstraite-finance-d-entreprise-la-fiscalit%C3%A9-la-comptabilit%C3%A9-de-la-banque-des-statistiques-e.jpg">
+                </figure>
+                <div class="info">
+                    <h3>Contabilidad</h3>
+                    <p class="texto">Es una herramienta clave para conocer en qué situación y condiciones se encuentra una empresa y, con esta documentación, poder establecer las estrategias necesarias con el objeto de mejorar su rendimiento económico.</p>
+                    <a href="https://economipedia.com/definiciones/contabilidad.html#:~:text=Es%20una%20herramienta%20clave%20para%20conocer%20en%20qu%C3%A9%20situaci%C3%B3n%20y%20condiciones%20se%20encuentra%20una%20empresa%20y%2C%20con%20esta%20documentaci%C3%B3n%2C%20poder%20establecer%20las%20estrategias%20necesarias%20con%20el%20objeto%20de%20mejorar%20su%20rendimiento%20econ%C3%B3mico." target="_BLANK">Leer más</a>
+                </div>
+            </div>
+            <!--Aquí termina la card 1; e inicia la card 2-->
+            <div class="card">
+                <figure>
+                    <img src="https://wikieconomica.com/wp-content/uploads/2020/09/1-7.jpg">
+                </figure>
+                <div class="info">
+                    <h3>Auditoría</h3>
+                    <p class="texto">El auditor es el profesional encargado de revisar los libros contables de una empresa. Esto, con el objetivo de corroborar que los registros se correspondan con la actividad efectivamente realizada por la firma.</p>
+                    <a href="https://economipedia.com/definiciones/auditor.html#:~:text=El%20auditor%20es%20el%20profesional%20encargado%20de%20revisar%20los%20libros%20contables%20de%20una%20empresa.%20Esto%2C%20con%20el%20objetivo%20de%20corroborar%20que%20los%20registros%20se%20correspondan%20con%20la%20actividad%20efectivamente%20realizada%20por%20la%20firma." target="_blank">Leer más</a>
+                </div>
+            </div>
+            <!--Aquí termina la card 2; e inicia la card 3-->
+            <div class="card">
+                <figure>
+                    <img src="https://infolibros.org/wp-content/uploads/2021/08/Libros-de-Computacion.jpg">
+                </figure>
+                <div class="info">
+                    <h3>Administración</h3>
+                    <p class="texto">Un administrador es la persona que se ocupa de realizar la tarea administrativa por medio de la planificación, organización, dirección y control de todas las tareas dentro de un grupo u organización para lograr los objetivos con el uso eficiente de los recursos.</p>
+                    <a href="https://economipedia.com/definiciones/administrador.html#:~:text=Un%20administrador%20es%20la%20persona%20que%20se%20ocupa%20de%20realizar%20la%20tarea%20administrativa%20por%20medio%20de%20la%20planificaci%C3%B3n%2C%20organizaci%C3%B3n%2C%20direcci%C3%B3n%20y%20control%20de%20todas%20las%20tareas%20dentro%20de%20un%20grupo%20social%20o%20de%20una%20organizaci%C3%B3n%20para%20lograr%20los%20objetivos%20mediante%20el%20uso%20eficiente%20de%20los%20recursos." target="_blank">Leer más</a>
+                </div>
+            </div>
+            <!--Aquí termina la card 3-->
+        </div>
+    </section>
+
+  <!--Aquí inicia el Footer-->
+
+  <footer>
+    <marquee behavior="alternate" direction="right-left"><b>Diseñado por &rdca; La estudiante Senior PM del Centro ¡Supérate! de la Chorrera.</b> <a href="https://girasema30.github.io/Gira-Examen-Portfolio/" style="text-decoration: none;" target="_BLANK">Girasema Cáceres</a></marquee>
+  </footer>
+
+</body>
+</html>
